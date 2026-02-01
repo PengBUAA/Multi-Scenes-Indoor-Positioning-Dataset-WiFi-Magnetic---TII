@@ -22,10 +22,10 @@ The dataset for each scenario includes the following core variables:
 
 | Variable | Shape/Type | Description |
 | :--- | :--- | :--- |
-| `Postrain` | $N \times 2$ Matrix | Training set reference coordinates (x, y) |
-| `Postest` | $M \times 2$ Matrix | Test set ground truth coordinates (x, y) |
-| `RSStrain` | Matrix / List | Training set WiFi RSSI fingerprints |
-| `RSStest` | Matrix / List | Test set WiFi RSSI fingerprints |
+| `Postrain` | $N \times 3$ Matrix | Position ID and Training set reference coordinates (id, x, y) |
+| `Postest` | $M \times 3$ Matrix | Position ID and Test set ground truth coordinates (id, x, y) |
+| `RSStrain` | Matrix | Training set WiFi RSSI fingerprints |
+| `RSStest` | List | Test set WiFi RSSI fingerprints |
 | `Magtrain` | $N \times 3$ Matrix | Training set Tri-axial magnetic field strength |
 | `Magtest` | $M \times 3$ Matrix | Test set Tri-axial magnetic field strength |
 
