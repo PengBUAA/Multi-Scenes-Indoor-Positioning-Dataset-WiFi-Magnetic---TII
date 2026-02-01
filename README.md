@@ -1,4 +1,4 @@
-# Multi-Scene Indoor Positioning Dataset (WiFi & Magnetic Field)
+# Multi-Scenes Indoor Positioning Dataset (WiFi & Magnetic Field)
 
 This repository contains a comprehensive indoor positioning dataset collected from two distinct real-world scenarios: a standard university teaching building and a large-scale international airport. The dataset integrates **WiFi Fingerprinting (RSSI)** and **Magnetic Field Strength** to support research in multi-source fusion, fingerprint database compression, and lightweight localization algorithms.
 
